@@ -14,9 +14,9 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri,
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'carpoolclub20052016',
-  masterKey: process.env.MASTER_KEY || 'hemant_car_pool_club_08', //Add your master key here. Keep it secret!
-  serverURL: process.env.SERVER_URL || 'http://carpoolclub.herokuapp.com/parse',  // Don't forget to change to https if needed
+  appId: process.env.APP_ID || 'paniwaala28052016',
+  masterKey: process.env.MASTER_KEY || 'paniwaala_2016', //Add your master key here. Keep it secret!
+  serverURL: process.env.SERVER_URL || 'http://paniwaalaseller.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
